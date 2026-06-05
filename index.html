@@ -61,6 +61,14 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
   background:var(--ink);padding:9px 18px;border-radius:2px;transition:.25s;
 }
 .nav-cta:hover{background:var(--accent)}
+.nav-insights{
+  font-size:.86rem;font-weight:600;text-decoration:none;
+  color:var(--ink);border:1.5px solid var(--ink);
+  padding:8px 17px;border-radius:2px;transition:.25s;
+  letter-spacing:.01em;
+}
+.nav-insights:hover{border-color:var(--accent);color:var(--accent)}
+.nav-right{display:flex;align-items:center;gap:10px}
 
 /* ---------- HERO ---------- */
 header{padding:96px 0 80px;position:relative}
@@ -199,7 +207,10 @@ header .logo-stage{animation-delay:.5s}
 <nav>
   <div class="wrap">
     <div class="brand">REFINED <span class="ko">특허 데이터 클렌징</span></div>
-    <a class="nav-cta" href="https://forms.gle/PpoJ52anvYAttWxk8">신청하기</a>
+    <div class="nav-right">
+      <a class="nav-insights" href="/insights.html">Insights</a>
+      <a class="nav-cta" href="https://forms.gle/PpoJ52anvYAttWxk8">신청하기</a>
+    </div>
   </div>
 </nav>
 
